@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/haksan-cnc-premium/static/css/main.9de3b688.css",
+    "main.js": "/haksan-cnc-premium/static/js/main.bdc553c5.js",
+    "static/js/453.3c2c066a.chunk.js": "/haksan-cnc-premium/static/js/453.3c2c066a.chunk.js",
+    "index.html": "/haksan-cnc-premium/index.html",
+    "main.9de3b688.css.map": "/haksan-cnc-premium/static/css/main.9de3b688.css.map",
+    "main.bdc553c5.js.map": "/haksan-cnc-premium/static/js/main.bdc553c5.js.map",
+    "453.3c2c066a.chunk.js.map": "/haksan-cnc-premium/static/js/453.3c2c066a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9de3b688.css",
+    "static/js/main.bdc553c5.js"
+  ]
+}
