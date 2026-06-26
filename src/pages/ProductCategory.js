@@ -35,14 +35,15 @@ export default function ProductCategory() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {category.products.map((p, i) => (
-              <div key={i} className="reveal card-3d bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-xl transition-all duration-400" style={{ animationDelay: `${i * 100}ms` }}>
+              <Link key={i} to={`/kategori/${slug}/${p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                className="reveal card-3d bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-xl transition-all duration-400" style={{ animationDelay: `${i * 100}ms` }}>
                 <div className="aspect-[4/3] bg-white p-6"><img src={p.img} alt={p.name} className="w-full h-full object-contain" loading="lazy" /></div>
                 <div className="p-5 border-t border-border">
                   <h3 className="text-secondary font-bold text-lg mb-2">{p.name}</h3>
                   <p className="text-text text-sm leading-relaxed mb-4">{p.desc}</p>
                   <a href="https://api.whatsapp.com/send?phone=905309621054&text=" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors">Fiyat Al →</a>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

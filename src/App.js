@@ -17,6 +17,7 @@ import SecondHandPage from './pages/SecondHandPage';
 import Service from './pages/Service';
 import ProductCategory from './pages/ProductCategory';
 import ProductListing from './pages/ProductListing';
+import ProductDetail from './pages/ProductDetail';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/servis-talep" element={<Service />} />
             <Route path="/kategori" element={<ProductListing />} />
             <Route path="/kategori/:slug" element={<ProductCategory />} />
+            <Route path="/kategori/:slug/:productName" element={<ProductDetail />} />
           </Routes>
         </PageTransition>
         <Newsletter />
