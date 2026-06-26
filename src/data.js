@@ -38,9 +38,11 @@ export const PRODUCT_CATEGORIES = [
     img: enc(`${BASE}/images/27582259072231220639DİK İŞLEME.jpg`),
     description: 'Yüksek hassasiyet ve güçlü performans sunan dik işleme merkezleri.',
     products: [
-      { name: 'VM Serisi', img: enc(`${BASE}/images/30680273963117726368VM SERİSİ.jpg`), desc: 'Yüksek hassasiyetli dik işleme merkezi. Hızlı ve hassas işleme için tasarlandı.' },
-      { name: 'MV Serisi', img: enc(`${BASE}/images/21094249072743728300MV SERİSİ.jpg`), desc: 'Yüksek verimlilik ve güçlü performans. Endüstriyel üretim için ideal.' },
-      { name: 'VC Serisi', img: enc(`${BASE}/images/30984237632001326770VC SERİSİ.jpg`), desc: 'Verimli ve hassas işlem. Kompakt tasarım, geniş çalışma alanı.' },
+      { name: 'VM-2 CNC Dik İşleme Merkezi', img: enc(`${BASE}/images/30680273963117726368VM SERİSİ.jpg`), desc: 'Kalıp, Yedek Parça, Otomotiv Sektörü İçin Önerilir.', brand: 'LK Machinery', model: 'VM-2', specs: ['Hassas İşleme', 'Yüksek Hız', 'Kalıp Üretimi'] },
+      { name: 'VM-5 CNC Dik İşleme Merkezi', img: enc(`${BASE}/images/30680273963117726368VM SERİSİ.jpg`), desc: 'Yeni nesil CNC Dik İşleme Merkezi. Hassas ve Rijit = Mükemmel Çözüm.', brand: 'LK Machinery', model: 'VM-5', specs: ['Yeni Nesil', 'Rijit Yapı', 'Hassas İşleme'] },
+      { name: 'VM-6 CNC Dik İşleme Merkezi', img: enc(`${BASE}/images/30680273963117726368VM SERİSİ.jpg`), desc: 'Yeni nesil CNC Dik İşleme Merkezi. Hassas ve Rijit = Mükemmel Çözüm.', brand: 'LK Machinery', model: 'VM-6', specs: ['Yeni Nesil', 'Geniş Çalışma Alanı'] },
+      { name: 'MV Serisi CNC Dik İşleme', img: enc(`${BASE}/images/21094249072743728300MV SERİSİ.jpg`), desc: 'Yüksek verimlilik ve güçlü performans. Endüstriyel üretim için ideal.', brand: 'Maximart', model: 'MV', specs: ['Yüksek Verimlilik', 'Endüstriyel'] },
+      { name: 'VC Serisi CNC Dik İşleme', img: enc(`${BASE}/images/30984237632001326770VC SERİSİ.jpg`), desc: 'Verimli ve hassas işlem. Kompakt tasarım, geniş çalışma alanı.', brand: 'Maximart', model: 'VC', specs: ['Kompakt', 'Geniş Alan'] },
     ],
   },
   {
@@ -49,9 +51,9 @@ export const PRODUCT_CATEGORIES = [
     img: enc(`${BASE}/images/30158257072201622652TORNA.jpg`),
     description: 'Yüksek hassasiyet ve dayanıklılık sunan torna tezgahları.',
     products: [
-      { name: 'SL Serisi', img: enc(`${BASE}/images/23221246312604727506SL SERİSİ.jpg`), desc: 'Yüksek hassasiyetli torna çözümleri. Hassas üretim için ideal.' },
-      { name: 'MT Serisi', img: enc(`${BASE}/images/22823275472975223631MT SERİSİ.jpg`), desc: 'Endüstriyel torna için yüksek kapasite. Güçlü ve dayanıklı.' },
-      { name: 'SJ Serisi', img: enc(`${BASE}/images/31608212903133423518SJ SERİSİ.jpg`), desc: 'Dayanıklı ve yüksek verimli torna tezgahları. Uzun ömürlü kullanım.' },
+      { name: 'SL-8 CNC Torna', img: enc(`${BASE}/images/23221246312604727506SL SERİSİ.jpg`), desc: 'Tamamen Kararlı, Tamamen Keskin. Yüksek hassasiyetli torna çözümü.', brand: 'ECOCA', model: 'SL-8', specs: ['Kararlı Yapı', 'Hassas Torna', 'Dayanıklı'] },
+      { name: 'MT Serisi CNC Torna', img: enc(`${BASE}/images/22823275472975223631MT SERİSİ.jpg`), desc: 'Endüstriyel torna için yüksek kapasite. Güçlü ve dayanıklı.', brand: 'Maximart', model: 'MT', specs: ['Yüksek Kapasite', 'Güçlü'] },
+      { name: 'SJ Serisi CNC Torna', img: enc(`${BASE}/images/31608212903133423518SJ SERİSİ.jpg`), desc: 'Dayanıklı ve yüksek verimli torna tezgahları. Uzun ömürlü kullanım.', brand: 'Maximart', model: 'SJ', specs: ['Dayanıklı', 'Yüksek Verim'] },
     ],
   },
   {
@@ -60,7 +62,7 @@ export const PRODUCT_CATEGORIES = [
     img: enc(`${BASE}/images/22804256182221322566TAPPING.jpg`),
     description: 'Hassas delik işleme ve diş açma çözümleri.',
     products: [
-      { name: 'TC Serisi', img: enc(`${BASE}/images/29513319262970220291TC SERİSİ.jpg`), desc: 'Yüksek performans ve hassas işleme. Kompakt ve hızlı.' },
+      { name: 'TC Serisi CNC Tapping', img: enc(`${BASE}/images/29513319262970220291TC SERİSİ.jpg`), desc: 'Yüksek performans ve hassas işleme. Kompakt ve hızlı.', brand: 'Maximart', model: 'TC', specs: ['Hassas Tapping', 'Hızlı', 'Kompakt'] },
     ],
   },
   {
@@ -69,8 +71,8 @@ export const PRODUCT_CATEGORIES = [
     img: enc(`${BASE}/images/20203235042438025760YATAY İŞLEME.jpg`),
     description: 'Yüksek kapasite ve hassasiyet sunan yatay işleme merkezleri.',
     products: [
-      { name: 'HT Serisi', img: enc(`${BASE}/images/21266288042718322748HT SERİSİ.jpg`), desc: 'Yüksek kapasite ve hassasiyet. Büyük parçalar için ideal.' },
-      { name: 'LH Serisi', img: enc(`${BASE}/images/30446206723117530236LH SERİSİ.jpg`), desc: 'Güçlü ve dayanıklı işleme. Ağır iş yükleri için tasarlandı.' },
+      { name: 'HT Serisi CNC Yatay', img: enc(`${BASE}/images/21266288042718322748HT SERİSİ.jpg`), desc: 'Yüksek kapasite ve hassasiyet. Büyük parçalar için ideal.', brand: 'Maximart', model: 'HT', specs: ['Yüksek Kapasite', 'Büyük Parça'] },
+      { name: 'LH Serisi CNC Yatay', img: enc(`${BASE}/images/30446206723117530236LH SERİSİ.jpg`), desc: 'Güçlü ve dayanıklı işleme. Ağır iş yükleri için tasarlandı.', brand: 'Maximart', model: 'LH', specs: ['Güçlü', 'Ağır Yük'] },
     ],
   },
   {
@@ -79,8 +81,11 @@ export const PRODUCT_CATEGORIES = [
     img: enc(`${BASE}/images/252172300921353288805 EKSEN.jpg`),
     description: 'Esnek ve hassas çok eksenli işleme çözümleri.',
     products: [
-      { name: 'D Serisi', img: enc(`${BASE}/images/308283127121811318541.jpg`), desc: '5 eksen hassas işleme. Karmaşık parçalar için ideal.' },
-      { name: 'C Serisi', img: enc(`${BASE}/images/249502702228912299253.jpg`), desc: 'Gelişmiş 5 eksen teknolojisi. Yüksek verimlilik.' },
+      { name: 'D-600 CNC 5 Eksen', img: enc(`${BASE}/images/308283127121811318541.jpg`), desc: '600x835x450 mm - ±120° - 360°. Hassas 5 eksen işleme.', brand: 'Maximart', model: 'D-600', specs: ['600x835x450mm', '±120° Açı', '360° Döndürme'] },
+      { name: 'D-700 CNC 5 Eksen', img: enc(`${BASE}/images/289762864928830309323.jpg`), desc: '650x835x500 mm - ±120° - 360°. Genişletilmiş alan.', brand: 'Maximart', model: 'D-700', specs: ['650x835x500mm', '±120° Açı', '360° Döndürme'] },
+      { name: 'D-800 CNC 5 Eksen', img: enc(`${BASE}/images/218063009024291267261.jpg`), desc: '800x1010x650 mm - ±120° - 360°. Yüksek kapasite.', brand: 'Maximart', model: 'D-800', specs: ['800x1010x650mm', '±120° Açı', '360° Döndürme'] },
+      { name: 'D-800T CNC 5 Eksen', img: enc(`${BASE}/images/289762864928830309323.jpg`), desc: '800x1010x750 mm - ±120° - 360°. Genişletilmiş versiyon.', brand: 'Maximart', model: 'D-800T', specs: ['800x1010x750mm', '±120° Açı', '360° Döndürme'] },
+      { name: 'C Serisi CNC 5 Eksen', img: enc(`${BASE}/images/249502702228912299253.jpg`), desc: 'Gelişmiş 5 eksen teknolojisi. Yüksek verimlilik.', brand: 'Maximart', model: 'C', specs: ['5 Eksen', 'Yüksek Verim'] },
     ],
   },
   {
