@@ -37,7 +37,7 @@ export default function BlogPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((post, i) => (
-              <a key={`${activeTag}-${i}`} href="#"
+              <a key={`${activeTag}-${i}`} href="/blog"
                 className="reveal card-3d group bg-white rounded-2xl border border-border overflow-hidden hover:border-primary/20 hover:shadow-xl transition-all duration-400"
                 style={{ animationDelay: `${i * 80}ms` }}>
                 <div className="aspect-[16/10] overflow-hidden relative">

@@ -29,7 +29,7 @@ export default function BlogPreview() {
         {/* Blog grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {BLOG_POSTS.slice(0, 3).map((post, i) => (
-            <a key={i} href="#"
+            <a key={i} href="/blog"
               className="reveal card-3d group bg-white rounded-2xl border border-border overflow-hidden hover:border-primary/20 hover:shadow-xl transition-all duration-400"
               style={{ animationDelay: `${i * 120}ms` }}>
               {/* Image */}

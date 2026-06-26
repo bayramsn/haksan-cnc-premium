@@ -27,7 +27,7 @@ export default function Products3D() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-6">
           {PROMO_PRODUCTS.slice(0, 8).map((p, i) => (
-            <a key={i} href="#"
+            <a key={i} href="/kategori"
               className="reveal card-3d group bg-white rounded-2xl border border-border overflow-hidden hover:border-primary/20 hover:shadow-xl transition-all duration-400"
               style={{ animationDelay: `${i * 80}ms` }}>
               <div className="aspect-square bg-surface p-5 relative overflow-hidden">

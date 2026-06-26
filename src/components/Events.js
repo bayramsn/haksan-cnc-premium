@@ -15,7 +15,7 @@ export default function Events() {
             <span className="text-primary text-[11px] font-semibold tracking-[0.25em] uppercase block mb-2">Etkinlikler</span>
             <h2 className="text-2xl lg:text-3xl font-bold text-secondary">Fuarlar ve Etkinlikler</h2>
           </div>
-          <a href="#" className="text-primary font-semibold text-sm hover:text-primary-dark transition-colors inline-flex items-center gap-1">
+          <a href="/blog" className="text-primary font-semibold text-sm hover:text-primary-dark transition-colors inline-flex items-center gap-1">
             Tüm Etkinlikler →
           </a>
         </div>

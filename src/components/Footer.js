@@ -108,9 +108,9 @@ export default function Footer() {
         <div className="border-t border-white/[0.06] py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="text-white/25 text-[12px]">© 2024 Haksan Makina. Tüm hakları saklıdır.</span>
           <div className="flex gap-5">
-            <a href="#" className="text-white/25 text-[12px] hover:text-primary transition-colors">Gizlilik Politikası</a>
-            <a href="#" className="text-white/25 text-[12px] hover:text-primary transition-colors">KVKK</a>
-            <a href="#" className="text-white/25 text-[12px] hover:text-primary transition-colors">Aydınlatma Metni</a>
+            <span className="text-white/25 text-[12px] cursor-default">Gizlilik Politikası</span>
+            <span className="text-white/25 text-[12px] cursor-default">KVKK</span>
+            <span className="text-white/25 text-[12px] cursor-default">Aydınlatma Metni</span>
           </div>
         </div>
       </div>
